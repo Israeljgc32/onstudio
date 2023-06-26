@@ -94,11 +94,11 @@ h1, h2, h3{
 }
 .videos{
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 12px;
 }
 .rep{
-	
+	margin: 0 10px;
 }
 video{
 	width: 100%;
