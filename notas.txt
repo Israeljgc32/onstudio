@@ -1,0 +1,2 @@
+    comando para probar la instalacion de node
+npm install -g sass
