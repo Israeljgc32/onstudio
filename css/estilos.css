@@ -28,11 +28,18 @@ nav ul li a{
 	font-size: 18px;
 }
 nav ul li a:hover, nav ul li:hover{
-	background-color: rgb(58, 19, 19);
+	background-color: rgb(58, 19, 19, 0.6);
 }
 nav ul li a:active, nav ul li:active{
 	background-color: orange;
 	color: black;
+}
+.des{
+	position: relative;
+}
+.vertical {
+	position: absolute;
+	left: 0;
 }
 .video{
 	width: 100%;
