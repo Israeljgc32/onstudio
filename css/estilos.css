@@ -5,21 +5,21 @@
 	box-sizing: border-box;
 	font-family: 'montserrat',sans-serif;
 }
-.front{
+header{
 	width: 100%;
 	position: relative;
 }
 nav{
 	width: 100%;
-	background-color: rgb(3, 3, 3, 0.3);
 	position: absolute;
-	top: 0px;
+	top: 0;
+	background-color: rgb(8, 8, 8, 0.3)
 }
 nav ul{
 	list-style: none;
 }
 nav ul li{
-	padding: 10px;
+	padding: 12px;
 	display: inline-block;
 }
 nav ul li a{
@@ -27,14 +27,17 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 18px;
 }
-nav ul li a:hover{
-	background: orange;
+nav ul li a:hover, nav ul li:hover{
+	background-color: rgb(58, 19, 19);
+}
+nav ul li a:active, nav ul li:active{
+	background-color: orange;
 	color: black;
 }
-.primary{
+.video{
 	width: 100%;
 }
-.primary video{
+.video video{
 	width: 100%;
 }
 .mostrar{
@@ -57,11 +60,11 @@ nav ul li a:hover{
 	top: 80%;
 }
 h1, h2{
+	width: 100%;
+	background-color: rgb(240, 240, 163);
+	color: rgb(218, 63, 43);
 	text-align: center;
-}
-.texto{
-	width: 80%;
-	margin: 0 10% 0 10%;
+	font-size: 24px;
 }
 .grid{
 	display: grid;
@@ -77,12 +80,18 @@ h1, h2{
 	height: 100%;
 }
 .image a{
+	clear: both;
 	text-decoration: none;
 	color: whitesmoke;
 	font-size: 24px;
 	font-weight: bold;
-	display: block;
+	display: inline;
 	text-align: center;
 	position: relative;
 	bottom: 50%;
+}
+/*		ESTILOS DE NOSOTROS.HTML	*/
+.texto{
+	width: 80%;
+	margin: 0 10% 0 10%;
 }
