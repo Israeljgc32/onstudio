@@ -66,6 +66,7 @@ nav ul li a:active, nav ul li:active{
 	white-space: nowrap;
 	border-right: 2px solid white;
 	animation: typing 8s steps(64) 1s 1 normal both, blink 1s steps(1) infinite;
+	animation-delay: 2s;
 }
 @keyframes blink {
 	50%{
@@ -77,7 +78,7 @@ nav ul li a:active, nav ul li:active{
 		width: 0;
 	}
 	to{
-		width: 50%;
+		width: 48%;
 	}
 }
 span{
