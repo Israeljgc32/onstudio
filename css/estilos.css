@@ -34,15 +34,6 @@ nav ul li a:active, nav ul li:active{
 	background-color: orange;
 	color: black;
 }
-.des{
-	position: relative;
-}
-.vertical {
-	position: absolute;
-}
-.vertical li{
-	display: block;
-}
 .video{
 	width: 100%;
 }
@@ -64,9 +55,34 @@ nav ul li a:active, nav ul li:active{
 .write{
 	width: 100%;
 	font-size: 20px;
-	color: white;
+	color: rgb(233, 233, 218);
 	position: absolute;
 	top: 80%;
+}
+.write p{
+	width: 0;
+	margin: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 2px solid white;
+	animation: typing 8s steps(64) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+@keyframes blink {
+	50%{
+		border-color: transparent;
+	}
+}
+@keyframes typing {
+	from{
+		width: 0;
+	}
+	to{
+		width: 50%;
+	}
+}
+span{
+	font-size: 28px;
+	color: orange;
 }
 h1, h2{
 	width: 100%;
