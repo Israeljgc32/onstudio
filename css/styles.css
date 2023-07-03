@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slider {
+    width: 100%;
+    background-image: url("file:///C:/xampp/htdocs/onstudio/imagenes/1.jpg");
+}
