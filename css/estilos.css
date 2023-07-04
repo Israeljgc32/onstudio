@@ -108,26 +108,23 @@ h1, h2{
 	width: 100%;
 	height: 100%;
 }
-.grid .servicios p{
-	position: absolute;
-	top: 90%;
-	color: white;
-	text-align: center;
-	width: 100%;
-}
 .grid .servicios .logotipo {
 	width: 100%;
 	position: absolute;
-	top: 60%;
+	top: 40%;
 	text-align: center;
 }
 .grid .servicios .logotipo img{
 	width: 35%;
 }
-.grid .servicios a{
+.grid .servicios .logotipo a {
 	text-decoration: none;
 	font-size: 24px;
 	font-weight: bold;
+	color: white;
+}
+.grid .servicios .logotipo p{
+	width: 100%;
 	color: white;
 }
 footer{
@@ -136,4 +133,14 @@ footer{
 	font-size: 18px;
 	font-weight: bold;
 	text-align: right;
+}
+.somos{
+	width: 100%;
+	display: flex;
+}
+.somos img{
+	width: 40%;
+}
+.somos p{
+	padding: 10px;
 }
