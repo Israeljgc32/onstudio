@@ -96,7 +96,7 @@ h1, h2{
 	text-align: center;
 	color: black;
 	font-size: 32px;
-	padding: 16px;
+	padding-top: 16px;
 }
 .grid{
 	width: 100%;
@@ -137,13 +137,8 @@ footer{
 	font-size: 18px;
 	font-weight: bold;
 	text-align: right;
-}
-
-hr{
-	width: 80px;
-	border: 2px solid orange;
-	border-radius: 6px;
-	margin: auto;
+	background-color: orange;
+	margin-top: 12px;
 }
 .portada{
 	width: 100%;
@@ -162,24 +157,24 @@ hr{
 	width: 100%;
 }
 .nosotros{
-	width: 60%;
+	width: 100%;
+	margin: 12px 0;
 	padding: 16px;
-	margin: 4% 20%;
 	background-color: lightgray;
-	border-radius: 8px;
 }
 .nosotros p{
-	line-height: 1.5;
-	text-indent:  24px;
+	padding: 10px 35px 0 35px;
+	text-align: justify;
 }
 .red{
-	width: 4%;
+	width: 3%;
 	position: fixed;
 	top: 45%;
 	right: 0;
 }
 .red img{
 	width: 100%;
+	opacity: 0.8;
 }
 .red:hover{
 	right: 16px;
