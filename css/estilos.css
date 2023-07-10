@@ -5,6 +5,9 @@
 	box-sizing: border-box;
 	font-family: 'montserrat',sans-serif;
 }
+html{
+	scroll-behavior: smooth;
+}
 header{
 	width: 100%;
 	position: relative;
