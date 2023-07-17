@@ -184,3 +184,22 @@ footer{
 .red img:hover{
 	width: 130%;
 }
+.cotiza{
+	position: absolute;
+	top: 80%;
+	left: 75%;
+	text-align: center;
+}
+.cotiza p{
+	color: orange;
+}
+.cotiza a{
+	text-decoration: none;
+	padding: 10px 6px;
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 12px;
+	margin-top: 10px;
+}
