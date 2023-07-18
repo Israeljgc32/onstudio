@@ -203,3 +203,11 @@ footer{
 	border-radius: 12px;
 	margin-top: 10px;
 }
+.grid2{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5px;
+}
+.grid2 .video2{
+	width: 100%;
+}
